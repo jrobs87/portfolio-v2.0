@@ -1,0 +1,78 @@
+html {
+    background: #1C243A;
+}
+
+body {
+    background: #1C243A;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Comfortaa';
+    color: darkgrey;
+}
+.quote {
+    color: #315675;
+    font-size: 2em;
+}
+
+.box-1 {
+    color: #315675;
+    transition-delay: 2s;
+    transition: 2s;
+    opacity: 0;
+}
+
+.quote-bold {
+    line-height: 1.05em;
+    font-size: 5em;
+}
+
+.quote-semi-bold {
+    color: #315675;
+    line-height: 1.15em;
+    font-size: 1.5em;
+}
+
+.splash-color {
+    color: orangered;
+}
+
+.splash-trans {
+    color: #315675;
+    opacity: 0.3;
+}
+
+.navbar {
+    background: #1C243A;
+    transition: 2s;
+    opacity: 0;
+    padding: 2em;
+}
+
+.dropdown-menu {
+    background: #1C243A;
+    border: none;
+}
+
+.dropdown-item {
+    color: darkgray;
+}
+
+.card {
+    margin: auto;
+    width: 100%;
+    background: none;
+    border:none;
+}
+
+.contact {
+    min-width: 20em;
+    padding: 0.5em;
+    font-size: 1em;
+    color: white;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+.contact:hover {
+    color: white;
+    opacity: 1;
+}
